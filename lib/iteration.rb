@@ -59,5 +59,13 @@ def total_even_pairs(src)
   # this!
   total = 0
   row_index = 0
-  while 
+  while row_index < guessing_game_grid.count do
+    element_index = 0
+      while element_index < guessing_game_grid[row_index].count do
+        total += guessing_game_grid[row_index][element_index]
+        element_index += 1
+      end
+      row_index += 1
+    end
+  return total
 end
