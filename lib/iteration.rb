@@ -17,6 +17,7 @@ def join_ingredients(src)
         end
         row_index += 1
     end
+  puts "I love #{first_array[row_index][element_index]}"
   return new_array
 end
 
