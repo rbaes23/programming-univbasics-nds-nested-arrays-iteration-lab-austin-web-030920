@@ -17,7 +17,7 @@ def join_ingredients(src)
         end
         row_index += 1
      end
-  return src
+  return array
 end
 
 
