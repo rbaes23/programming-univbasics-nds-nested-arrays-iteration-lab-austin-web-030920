@@ -38,13 +38,13 @@ def find_greater_pair(src)
         element_index += 1
         second_num = src[row_index][element_index]
         if first_num > second_num
-          inner_results << first_num[0]
+          inner_results << first_num
         else
-          inner_results << second_num[0]
+          inner_results << second_num
         end
         element_index += 1
       end
-       outer_results << inner_results
+       outer_results << inner_results[0]
        row_index += 1
   end
   return outer_results
