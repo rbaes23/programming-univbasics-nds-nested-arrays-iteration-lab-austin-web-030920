@@ -11,16 +11,15 @@ def join_ingredients(src)
   second_array = []
   new_array = []
   row_index = 0
-    while row_index < src.count do
-      element_index = 0
-        while element_index < src[row_index].count do
-          first_array << #{src[row_index][element_index]}
-            element_index += 1
-        end
-        second_array << #{src[row_index][element_index]}
-        row_index += 1
-    end
-  new_array << "I love #{first_array[element_index]} and #{second_array[element_index]} on my pizza"
+                    * row_index = 0
+                * while row_index < spice_rack.count do
+                *   element_index = 0
+                *   while element_index < spice_rack[row_index].count do
+                *     puts spice_rack[row_index][element_index]
+                *     element_index += 1
+                *   end
+                *   row_index += 1
+                * end
   return first_array
 end
 
