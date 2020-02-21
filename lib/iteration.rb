@@ -30,20 +30,18 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   outer_results = []
   row_index = 0
-    while row_index < spice_rack.count do
-      element_index = 0
-      inner_results = []
-        while element_index < spice_rack[row_index].count do
-          if spice_rack[row_index][element_index][0] == "P"
-                *       inner_results << spice_rack[row_index][element_index]
-                *     end
-                *     element_index += 1
-                *   end
-                *   outer_results << inner_results
-                *   row_index += 1
-                * end
-
-  
+  while row_index < src.count do
+    element_index = 0
+    inner_results = []
+      while element_index < src[row_index].count do
+        if src[row_index][element_index][0] == "P"
+          inner_results << src[row_index][element_index]
+        end
+        element_index += 1
+      end
+       outer_results << inner_results
+       row_index += 1
+  end
   return outer_results
 end
 
