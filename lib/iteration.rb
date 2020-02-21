@@ -13,7 +13,6 @@ def join_ingredients(src)
       element_index = 0
         while element_index < src[row_index].count do
           new_array << "I love src[row_index][element_index] on my pizza"
-          
             element_index += 1
         end
         row_index += 1
