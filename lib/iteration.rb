@@ -13,11 +13,11 @@ def join_ingredients(src)
       element_index = 0
         while element_index < spice_rack[row_index].count do
           puts src[row_index][element_index]
-                *     element_index += 1
-                *   end
-                *   row_index += 1
-                * end
-  return first_array
+          element_index += 1
+        end
+        row_index += 1
+     end
+  return src
 end
 
 
