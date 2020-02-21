@@ -14,11 +14,11 @@ def join_ingredients(src)
         while element_index < src[row_index].count do
           puts src[row_index][element_index]
           element_index += 1
-          puts "I love #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza"
+          new_array << "I love #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza"
         end
         row_index += 1
      end
-  return src
+  return new_array
 end
 
 
