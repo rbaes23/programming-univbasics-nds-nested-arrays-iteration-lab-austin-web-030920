@@ -15,8 +15,8 @@ def join_ingredients(src)
       element_index = 0
         while element_index < src[row_index].count do
           first_array << #{src[row_index][element_index]}
-          second_array << #{src[row_index][element_index]} + 1
             element_index += 1
+          second_array << #{src[row_index][element_index]}
         end
         row_index += 1
     end
