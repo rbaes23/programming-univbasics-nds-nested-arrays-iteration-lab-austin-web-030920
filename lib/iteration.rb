@@ -21,7 +21,7 @@ def join_ingredients(src)
         row_index += 1
     end
   new_array << "I love #{first_array[element_index]} and #{second_array[element_index]} on my pizza"
-  return new_array
+  return first_array
 end
 
 
