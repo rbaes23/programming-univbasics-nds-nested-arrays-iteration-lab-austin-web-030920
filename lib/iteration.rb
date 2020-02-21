@@ -16,6 +16,7 @@ def join_ingredients(src)
           element_index += 1
           second_ingredient = src[row_index][element_index]
           new_array << "I love #{first_ingredient} and #{second_ingredient} on my pizza"
+          element_index += 1
         end
         row_index += 1
      end
