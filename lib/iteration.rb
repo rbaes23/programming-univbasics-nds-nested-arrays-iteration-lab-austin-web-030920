@@ -20,7 +20,7 @@ def join_ingredients(src)
         second_array << #{src[row_index][element_index]}
         row_index += 1
     end
-  new_array << "I love #{first_array[row_index][element_index]} and #{second_array[row_index][element_index]} on my pizza"
+  new_array << "I love #{first_array[row_index]} and #{second_array[row_index]} on my pizza"
   return new_array
 end
 
